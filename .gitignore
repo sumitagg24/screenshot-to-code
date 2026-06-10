@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+backend/venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Build artifacts & caches
+.next/
+*.pack
+.turbo/
+.pytest_cache/
+.pytest_tmp/
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+.cache/
+
+# Environment files
+.env
+.env.local
+backend/.env
+
+# IDE & OS files
+.aider*
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+backend/run_logs/*
+*.log
+
+# Misc
+.rodney
+backend/backend/*
