@@ -36,6 +36,18 @@ backend/.env
 backend/run_logs/*
 *.log
 
+# Documentation & unnecessary files
+AGENTS.md
+CLAUDE.md
+TESTING.md
+Troubleshooting.md
+Evaluation.md
+COMPLETION_REPORT.txt
+DEPLOYMENT_SUMMARY.md
+
+# Old/deprecated directories
+frontend-old/
+backend/backend/*
+
 # Misc
 .rodney
-backend/backend/*
